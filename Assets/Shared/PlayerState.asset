@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad80c7d616004434bac7c7dd055e7d2d, type: 3}
+  m_Name: PlayerState
+  m_EditorClassIdentifier: 
+  isDie: 0
+  isGrounded: 1
+  currentState: 2
+  inventoryState: 0
+  inventory: []
+  capacity: 5
+  currentInteract: {fileID: 0}
+  isInStructure: 0
+  clickedObjName: 
+  helpText: 'Launcher Platform: congrats, piece placed correctly!'
+  updateInventoryUI: {fileID: 11400000, guid: b228e13e59f194ece87dd37b8700f776, type: 2}
+  playerDie: {fileID: 11400000, guid: 0b0b6a0997d034ad890c991e90c375c4, type: 2}
+  playerInPlatform: {fileID: 11400000, guid: f222f7ad6c0b646fc9342f4445d82b3c, type: 2}
+  playerOutPlatform: {fileID: 11400000, guid: fd78cff0e50454f54aa2e5b135485f5a, type: 2}
+  playerInRocket: {fileID: 11400000, guid: e1ad823556ef54be4bdb1527c574fa86, type: 2}
+  playerOutRocket: {fileID: 11400000, guid: 327bf8bf7ec954666a91d94982cbf85a, type: 2}
+  playerInHelper: {fileID: 11400000, guid: beccd78aa69554463b339f7f3c4463c0, type: 2}
+  playerOutHelper: {fileID: 11400000, guid: 8931e059108174785ae7b910d0b6ec7e, type: 2}
+  playerReleaseItem: {fileID: 11400000, guid: 750e561fd738445b58746f7a1a92beb7, type: 2}
+  resultCreated: {fileID: 11400000, guid: f809f825455e141c39fad11f60ad91be, type: 2}
+  updateHelpText: {fileID: 11400000, guid: df5329dbefd014e7f83d1c2832dcc17e, type: 2}
+  changeUniverse: {fileID: 11400000, guid: e858fe5e6c4194b95abc131b8dd8aa7f, type: 2}
+  launchRocket: {fileID: 11400000, guid: 88d0a1282466646dfbb6a3c91fa22b40, type: 2}

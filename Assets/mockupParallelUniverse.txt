@@ -1,0 +1,65 @@
+oggetti
+    - barrel
+    - barrels
+    - pipe
+    - structure
+    - platform_straight
+
+    - machine_barrel
+    - machine_generator
+    
+    - machine_wireless
+    - satellite
+
+    - rover
+    - gate
+
+strutture
+    - hangar_smallB: genera parte della piattaforma di lancio platform
+    - hangar_largeB: genera parte del razzo rocket
+    - hangar_roundB: suggerisci combo, cambio universo, rallenta countdown helper
+
+piattaforma di lancio (hangar_smallB)
+    - top
+        - barrels
+        - structure
+    - 0
+        - barrel
+        - platform_straight
+    - 1
+        - barrel
+        - platform_straight
+    - 2
+        - barrel
+        - platform_straight
+    - 3
+        - barrel
+        - platform_straight
+
+razzo (hangar_largeB)
+    - top
+    - middle-top
+    - middle
+    - middle-bottom
+    - bottom
+
+cambio universo
+    - cambiare universo
+        - gate
+        - satellite
+        - machine_wireless
+
+    - nel nuovo universo ci sono oggetti diversi ma le strutture che hai già costruito solo le stesse
+    - serve a trovare gli altri oggetti che ti mancano
+    - puoi costruire nel nuovo universo (finchè non finisci gli oggetti disponibili)
+    - per spostarti di universo ti invocare cambio universo
+
+avversario
+    - il tempo che scorre countdown
+    - manca sempre più ossigeno nell'aria
+
+parti generate 
+    - devono essere riposizionate
+    - puoi prenderle per spostarle di universo
+
+
